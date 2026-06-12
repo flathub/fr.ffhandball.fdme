@@ -31,9 +31,12 @@ modules:
       - install -Dm644 fr.ffhandball.fdme.png /app/share/icons/hicolor/256x256/apps/fr.ffhandball.fdme.png
     sources:
       - type: archive
-        url: https://install.fdme.ffhandball.fr/FDME_Linux_1.0.60.zip
-        sha256: 5534d48369a65fe597e3a83a1b3348c2bb197a79a6a6b29c8b51331b99204a55
+        url: https://install.fdme.ffhandball.fr/FDME_Linux_latest.zip
+        sha256: 3744ab895c56a1aaae012a3980142a50f673efa0ddb8c53f46c43a7ff8badba4
         strip-components: 0
+        x-checker-data:
+          type: rotating-url
+          url: https://install.fdme.ffhandball.fr/FDME_Linux_latest.zip
       - type: script
         dest-filename: fdme.sh
         commands:
