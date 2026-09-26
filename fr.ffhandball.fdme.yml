@@ -32,7 +32,7 @@ modules:
     sources:
       - type: archive
         url: https://install.fdme.ffhandball.fr/FDME_Linux_latest.zip
-        sha256: c5b3ccae15876bba2d017671dd6a8a4749c17cecc9f5dc0d2d164d740806103b
+        sha256: 414da46dbd091f7b897e56ea38965463f939522556b4a812ad5889c32d5aded3
         strip-components: 0
         x-checker-data:
           type: rotating-url
