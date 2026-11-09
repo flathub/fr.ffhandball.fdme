@@ -1,6 +1,6 @@
 app-id: fr.ffhandball.fdme
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 command: fdme
 finish-args:
@@ -32,7 +32,7 @@ modules:
     sources:
       - type: archive
         url: https://install.fdme.ffhandball.fr/FDME_Linux_latest.zip
-        sha256: 06defd3c1e440045ecc010c45682b1ca768d2786fe1cc020ceb8dcb5b48049bd
+        sha256: 4051da1d3b703796340ff79066890633084bd38d239218de8bae032ec8c58efd
         strip-components: 0
         x-checker-data:
           type: rotating-url
